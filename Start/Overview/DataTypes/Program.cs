@@ -57,10 +57,10 @@ Console.WriteLine($"{cl.a}, {cl.b}");
 ClassOp(cl);
 Console.WriteLine($"{cl.a}, {cl.b}");
 
-// Console.WriteLine("Objects are passed by reference, since they are reference types:");
-// Console.WriteLine($"{cl.a}, {cl.b}");
-// ClassOp(cl);
-// Console.WriteLine($"{cl.a}, {cl.b}");
+ Console.WriteLine("Objects are passed by reference, since they are reference types:");
+ Console.WriteLine($"{cl.a}, {cl.b}");
+ ClassOp(cl);
+ Console.WriteLine($"{cl.a}, {cl.b}");
 
 // These are declared at the bottom of the file because C# requires
 // top-level statements to come before type declarations
